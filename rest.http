@@ -1,35 +1,35 @@
-@apiURL = http://localhost:4000/api/v1
+@apiURL = http://localhost:5000/api/v1
 
 ####
 POST {{apiURL}}/auth
 Content-Type: application/json
 
 {
-  "email": "absc@gmail.com", 
-  "password": "12345"
+  "fname": "oi",
+  "lname": "oi",
+  "email": "oi@gmail.com",
+  "password": "1234"
 }
 
-<<<<<<< HEAD
 
-#####
-=======
 ###
->>>>>>> 9a42c9e9e5b45bacf9507a8529a3e8a2515fc1ad
+
 POST {{apiURL}}/auth/login
 Content-Type: application/json
 
 {
-  "email": "absc@gmail.com", 
-  "password": "12345"
+  "email": "oi@gmail.com", 
+  "password": "1234"
 
 }
 
 ###
-POST {{apiURL}}/category
+GET {{apiURL}}/user
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9pQGdtYWlsLmNvbSIsImZuYW1lIjoib2kiLCJsbmFtZSI6Im9pIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzU5MjA3MTI1LCJleHAiOjE3NTk4MTE5MjV9.N5RTr1va53T8JT-suVIy2qW3JO64Sbn68SfMBgfAFc4
 
 {
-  "name":"Laptop"
+
 }
 
 ###

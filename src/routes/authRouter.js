@@ -10,5 +10,6 @@ const router = express.Router();
 
 router.post("/", createUserValidation, createNewUser);
 router.post("/login", loginValidation, loginUser);
+// router.post("/login", loginUser);
 
 export default router;
